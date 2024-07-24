@@ -8,7 +8,7 @@ console.log('Merged array sorted', merged);
 merged.reverse()   // 2.Array Sorting - reverse()
 console.log('Merged array reversed', merged);
 let deduplicated=[...new Set(A)];
-console.log('Deduplication of Array',deduplicatedArr)  //3. Deplicated Array
+console.log('Deduplication of Array',deduplicated)  //3. Deplicated Array
 k = k % A.length;
 console.log('Rotating an Array', A.slice(-k).concat(A.slice(0, -k))); //4. Rotating an array
 function isequals(arr1, arr2) {
@@ -18,5 +18,5 @@ function isequals(arr1, arr2) {
     }
     return true;
 }
-console.log(isequals(A, B));  // 5. Check Equals from A B 
+console.log("Check Equals from A B ",isequals(A, B));  // 5. Check Equals from A B 
 
